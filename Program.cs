@@ -22,17 +22,20 @@
 //44, 5, 78 -> 78
 //22, 3, 9 -> 22
 
-Console.WriteLine("Input first number");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input second number");
-int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input third number");
-int num3 = Convert.ToInt32(Console.ReadLine());
-int max = num1;
+//Console.WriteLine("Input first number");
+//int num1 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Input second number");
+//int num2 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Input third number");
+//int num3 = Convert.ToInt32(Console.ReadLine());
+//int max = num1;
 
-if (num1 > num2 && num3)
-Console.WriteLine($"Fisrt number {num1} is max");
-if (num2 > num1 && num3)
-Console.WriteLine($"Second number {num2} is max");
-if (num3 > num1 && num2)
-Console.WriteLine($"Third number {num2} is max");
+//if (num1 > num2 && num3)
+//Console.WriteLine($"Fisrt number {num1} is max");
+//if (num2 > num1 && num3)
+//Console.WriteLine($"Second number {num2} is max");
+//if (num3 > num1 && num2)
+//Console.WriteLine($"Third number {num2} is max");
+
+// Задача 6. Напишите программу, которая на вход принимает число и выдает, является ли число чётным (делится ли оно на два без остатка).
+
