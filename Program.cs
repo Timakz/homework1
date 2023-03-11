@@ -39,3 +39,15 @@
 
 // Задача 6. Напишите программу, которая на вход принимает число и выдает, является ли число чётным (делится ли оно на два без остатка).
 
+Console.WriteLine("Input number");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 0)
+{
+    int reminder = num %  2;
+    Console.WriteLine($"Your number {num} -> {reminder} is even");
+}
+else
+{
+ Console.WriteLine($"Your number {num} is odd");   
+}
