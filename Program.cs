@@ -39,15 +39,31 @@
 
 // Задача 6. Напишите программу, которая на вход принимает число и выдает, является ли число чётным (делится ли оно на два без остатка).
 
-Console.WriteLine("Input number");
-int num = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Input number");
+//int num = Convert.ToInt32(Console.ReadLine());
 
-if (num % 2 == 0)
+//if (num % 2 == 0)
+//{
+  //  int reminder = num %  2;
+    //Console.WriteLine($"Your number {num} -> {reminder} is even");
+//}
+//else
+//{
+ //Console.WriteLine($"Your number {num} is odd");   
+//}
+
+//Задача 8. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+Console.WriteLine("Input N");
+int n = Convert.ToInt32(Console.ReadLine());
+for (int a = 1; a <= n; a ++)
 {
-    int reminder = num %  2;
-    Console.WriteLine($"Your number {num} -> {reminder} is even");
+    if (a % 2 == 0)
+    Console.WriteLine(a + " ");
 }
-else
-{
- Console.WriteLine($"Your number {num} is odd");   
-}
+
+
+
+
